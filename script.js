@@ -23,5 +23,7 @@ function check(){
         document.getElementById("img-over").style.display = "none"
         }
 }
+
+
 setInterval(check,0)
 setInterval(minus,100)
