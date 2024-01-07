@@ -28,17 +28,17 @@ let images = [
     "https://www.valorantpornhentai.com/wp-content/uploads/115290-league-of-legends-game-porn-cum-open-mouth-text.jpeg",
     "https://hentaiwikis.com/wp-content/uploads/2023/07/anime-hentai-jinx-r34-league-of-legends-porn-game-xxx-sex-2-1.jpg", 
     "https://cosxplay.com/vi/storage/2023/03/league-of-legends-hentai-jinx-fucked-tied-with-pov-uncensored-japanese-asian-manga-anime-game-porn-320x180.jpg",
-"https://ehentai.wiki/images/e2/5b/66501449_overwatch-lol-porn-animation-compilation-arhoangle-thumb.jpg",
-"https://rule34porn.net/web/25506.jpg",
-"https://static7.hentai-img.com/upload/20190131/530/542084/p=305/11.jpg",
-"https://kingcomix.com/wp-content/images/2019/11/19/LoL-Comic---futanari-porn-comics-6.webp",
-"https://hot-cartoon.com/wp-content/uploads/2020/09/7.-ahri-porn-league-of-legends.jpg",
-"https://64.media.tumblr.com/478b3506027b5f582c5e826801469760/tumblr_oamq2pcvVA1v1b66zo1_500.jpg",
-"https://trahkino.cc/contents/videos_screenshots/246000/246612/preview.mp4.jpg",
-"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZuh-ZmaRWrc7buz176PDMlO_FhwNNJyaCovhQel6tcj9ccM9H6pTZAiwaBTzPelFA_A&usqp=CAU",
-"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSckuRG5tBSo4hmkJbRYyAvEz1xgyk7K1sylT_YIJbJjx_yj7pc-Xv5kiD8a9GKg4_DsIs&usqp=CAU",
-"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO1OLlmagoQYXrAZmkPkFZas-hMROELNr0wokv6xAgDiiiGQZPMpozc4_HLdZtJSICOBY&usqp=CAU",
-"https://pbs.twimg.com/media/FNUj1ZEXsAE5uyp.jpg",
+    "https://ehentai.wiki/images/e2/5b/66501449_overwatch-lol-porn-animation-compilation-arhoangle-thumb.jpg",
+    "https://rule34porn.net/web/25506.jpg",
+    "https://static7.hentai-img.com/upload/20190131/530/542084/p=305/11.jpg",
+    "https://kingcomix.com/wp-content/images/2019/11/19/LoL-Comic---futanari-porn-comics-6.webp",
+    "https://hot-cartoon.com/wp-content/uploads/2020/09/7.-ahri-porn-league-of-legends.jpg",
+    "https://64.media.tumblr.com/478b3506027b5f582c5e826801469760/tumblr_oamq2pcvVA1v1b66zo1_500.jpg",
+    "https://trahkino.cc/contents/videos_screenshots/246000/246612/preview.mp4.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZuh-ZmaRWrc7buz176PDMlO_FhwNNJyaCovhQel6tcj9ccM9H6pTZAiwaBTzPelFA_A&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSckuRG5tBSo4hmkJbRYyAvEz1xgyk7K1sylT_YIJbJjx_yj7pc-Xv5kiD8a9GKg4_DsIs&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO1OLlmagoQYXrAZmkPkFZas-hMROELNr0wokv6xAgDiiiGQZPMpozc4_HLdZtJSICOBY&usqp=CAU",
+    "https://pbs.twimg.com/media/FNUj1ZEXsAE5uyp.jpg",
 "",
 "",
 "",
@@ -84,7 +84,7 @@ let images = [
 "",
 
 ]
-let number = random(0,27)
+let number = random(0,38)
 
 let timeLeft = 10
 let timerId = 0
@@ -108,13 +108,13 @@ function random(min, max) {
 
 function checkImgs(){
     if(x > 950){
-        number = random(0,27)
+        number = random(0,38)
         image.src = images[number]
     }
 }
 
 function change(){
-    number = random(0,27)
+    number = random(0,38)
     image.src = images[number]
     console.log(number)
 }
