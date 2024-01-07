@@ -27,6 +27,14 @@ let images = [
     "https://lolhentaiporn.com/wp-content/uploads/2019/02/2779026-League_of_Legends-Vi-firolian.jpg",
     "https://www.valorantpornhentai.com/wp-content/uploads/115290-league-of-legends-game-porn-cum-open-mouth-text.jpeg",
     "https://hentaiwikis.com/wp-content/uploads/2023/07/anime-hentai-jinx-r34-league-of-legends-porn-game-xxx-sex-2-1.jpg", 
+    
+
+
+
+
+
+
+    
 ]
 let number = random(0,27)
 
