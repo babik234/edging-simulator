@@ -34,3 +34,11 @@ background-color: grey;
     margin-left: 790px;
     z-index: -5;
 }
+.img{
+    display: none;
+    width: 50%;
+    position: absolute;
+    margin-top: -850px;
+    margin-left: 470px;
+    z-index: -5;
+}

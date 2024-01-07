@@ -4,7 +4,8 @@ let images = [
     'https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png',
     'https://cdn.pixabay.com/photo/2016/09/08/04/12/programmer-1653351_960_720.png'
   ];
-let image = document.getElementById('');
+let image = document.getElementById('imgs');
+image.src = images[0]
 
 let x = 0
 let button  = document.getElementById("button")
@@ -17,8 +18,10 @@ function click(){
     document.getElementById("edge-bar").style.width = x + "px"
     if(x > 950){
     document.getElementById("img-over").style.display = "block"
+    document.getElementById("imgs").style.display = "none"
     }else{
         document.getElementById("img-over").style.display = "none"
+
     }
 }
 
@@ -29,7 +32,11 @@ function minus(){
 function check(){
     if(x < 950){
         document.getElementById("img-over").style.display = "none"
-        }
+        document.getElementById("imgs").style.display = "block"
+    }
+    if(x < 0){
+        x = 0
+    }
 }
 
 
