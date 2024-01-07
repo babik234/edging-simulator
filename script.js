@@ -1,5 +1,5 @@
 let images = [
-    'https://cdn.pixabay.com/photo/2018/03/22/02/37/background-3249063_960_720.png',
+    'https://www.lolhentai.net/_data/i/upload/2022/08/11/20220811012414-5ce3a0e0-cu_s9999x450.jpg',
     'https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg',
     'https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png',
     'https://cdn.pixabay.com/photo/2016/09/08/04/12/programmer-1653351_960_720.png'
@@ -10,10 +10,10 @@ let images = [
   }
 
 let number = random(0,3)
-console.log(number)
-
+let timeLeft = 4
+let timerId = 0
 let image = document.getElementById('imgs');
-image.src = images[random]
+image.src = images[number]
 
 let x = 0
 let button  = document.getElementById("button")
@@ -24,11 +24,14 @@ button.addEventListener("click",click)
 
 function checkImgs(){
 if(x > 950){
-    number = Math.random() * 4
-    random = Math.floor(number)
+    number = random(0,3)
+    image.src = images[number]
 }
 }
-
+function change(){
+    number = random(0,3)
+    image.src = images[number]
+}
 function click(){
     x += 50
     document.getElementById("edge-bar").style.width = x + "px"
@@ -54,6 +57,19 @@ function check(){
         x = 0
     }
 }
+
+function countdown() {
+    if (timeLeft == 0) {
+        change()
+      timeLeft = 4
+      timerId = 0
+      countdown()
+     
+    } else {
+      timeLeft--;
+    }
+  }
+  timerId =  setInterval(countdown, 1000)
 
 setInterval(checkImgs,0)
 setInterval(check,0)
