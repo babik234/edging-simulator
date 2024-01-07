@@ -60,6 +60,7 @@ function checkImgs(){
 function change(){
     number = random(0,27)
     image.src = images[number]
+    console.log(number)
 }
 
 function click(){
