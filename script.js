@@ -4,14 +4,30 @@ let images = [
     'https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png',
     'https://cdn.pixabay.com/photo/2016/09/08/04/12/programmer-1653351_960_720.png'
   ];
+
+  function random(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  }
+
+let number = random(0,3)
+console.log(number)
+
 let image = document.getElementById('imgs');
-image.src = images[0]
+image.src = images[random]
 
 let x = 0
 let button  = document.getElementById("button")
 
 document.getElementById("edge-bar").style.width = x + "px"
 button.addEventListener("click",click)
+
+
+function checkImgs(){
+if(x > 950){
+    number = Math.random() * 4
+    random = Math.floor(number)
+}
+}
 
 function click(){
     x += 50
@@ -39,6 +55,6 @@ function check(){
     }
 }
 
-
+setInterval(checkImgs,0)
 setInterval(check,0)
 setInterval(minus,100)
