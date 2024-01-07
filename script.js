@@ -1,7 +1,7 @@
 let images = [
     "https://www.r34anim.com/wp-content/uploads/2023/09/20/Akali-Gets-Ruined-720x340.webp",
     "https://image.staticox.com/?url=https%3A%2F%2Fw640.luscious.net%2Fhinata5%2F431469%2Flol-porn-r34-ahri-6_01FJPE1XYC5X1DDKHJ4JFGNJGK.640x0.jpg",
-    "https://comicsporn.site/uploads_images_comix/porn-comics-league-of-legends--ashe--erotic-comic-ashley--she-fucks-/",
+    "https://albums193.zbporn.com/main/9998x9998/21000/21056/508963.jpg",
     "porn-comics-league-of-legends--ashe--erotic-comic-ashley--she-fucks--96660.jpg",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4kKLFjCELwQi_CyT2CTs740xZivXBAxtdOg&usqp=CAU",
     "https://lolhentaiporn.com/wp-content/uploads/2020/11/3592570-HuarboDraw-League_of_Legends-Qiyana.jpg",
