@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+.bar{
+margin-top: 650px;
+margin-left: 25%;
+height: 50px;
+width: 950px;
+border-radius: 50px;
+background-color: grey;
+}
+.button{
+    font-size: 55px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 45%;
+    margin-top: 55px;
+    cursor: pointer;
+    z-index: 15;
+}
+.edge-bar{
+    background-color: red;
+    margin-top: 650px;
+    margin-left: 0px;
+    height: 50px;
+    width: 950px;
+    border-radius: 50px;
+}
+.img-over{
+    display: none;
+    width: 17%;
+    position: absolute;
+    margin-top: -800px;
+    margin-left: 790px;
+    z-index: -5;
+}
