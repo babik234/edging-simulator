@@ -36,9 +36,10 @@ background-color: grey;
 }
 .img{
     display: none;
-    width: 50%;
+    width: 1500px;
+    height: 600px;
     position: absolute;
     margin-top: -850px;
-    margin-left: 470px;
+    margin-left: 230px;
     z-index: -5;
 }
