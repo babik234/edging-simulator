@@ -5,33 +5,40 @@ let images = [
     'https://cdn.pixabay.com/photo/2016/09/08/04/12/programmer-1653351_960_720.png'
   ];
 
-  function random(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + min);
-  }
-
 let number = random(0,3)
+
 let timeLeft = 4
 let timerId = 0
+
 let image = document.getElementById('imgs');
-image.src = images[number]
 
 let x = 0
 let button  = document.getElementById("button")
+
+
+image.src = images[number]
 
 document.getElementById("edge-bar").style.width = x + "px"
 button.addEventListener("click",click)
 
 
+function random(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  }
+
+
 function checkImgs(){
-if(x > 950){
-    number = random(0,3)
-    image.src = images[number]
+    if(x > 950){
+        number = random(0,3)
+        image.src = images[number]
+    }
 }
-}
+
 function change(){
     number = random(0,3)
     image.src = images[number]
 }
+
 function click(){
     x += 50
     document.getElementById("edge-bar").style.width = x + "px"
@@ -43,11 +50,12 @@ function click(){
 
     }
 }
-
+ 
 function minus(){
     x -= 5
     document.getElementById("edge-bar").style.width = x + "px"
 }
+ 
 function check(){
     if(x < 950){
         document.getElementById("img-over").style.display = "none"
@@ -69,8 +77,10 @@ function countdown() {
       timeLeft--;
     }
   }
-  timerId =  setInterval(countdown, 1000)
+timerId =  setInterval(countdown, 1000)
 
 setInterval(checkImgs,0)
+
 setInterval(check,0)
+
 setInterval(minus,100)
