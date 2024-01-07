@@ -2,7 +2,7 @@ let images = [
     "https://www.r34anim.com/wp-content/uploads/2023/09/20/Akali-Gets-Ruined-720x340.webp",
     "https://image.staticox.com/?url=https%3A%2F%2Fw640.luscious.net%2Fhinata5%2F431469%2Flol-porn-r34-ahri-6_01FJPE1XYC5X1DDKHJ4JFGNJGK.640x0.jpg",
     "https://albums193.zbporn.com/main/9998x9998/21000/21056/508963.jpg",
-    "porn-comics-league-of-legends--ashe--erotic-comic-ashley--she-fucks--96660.jpg",
+    "https://comicsarmy.com/wp-content/uploads/2023/08/busty-Katarina-creampie-Garen_and_Kat-lol-porn-6No1-5.jpg",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4kKLFjCELwQi_CyT2CTs740xZivXBAxtdOg&usqp=CAU",
     "https://lolhentaiporn.com/wp-content/uploads/2020/11/3592570-HuarboDraw-League_of_Legends-Qiyana.jpg",
     "https://cdn5-images.motherlessmedia.com/images/BE4B78F.jpg",
@@ -27,18 +27,66 @@ let images = [
     "https://lolhentaiporn.com/wp-content/uploads/2019/02/2779026-League_of_Legends-Vi-firolian.jpg",
     "https://www.valorantpornhentai.com/wp-content/uploads/115290-league-of-legends-game-porn-cum-open-mouth-text.jpeg",
     "https://hentaiwikis.com/wp-content/uploads/2023/07/anime-hentai-jinx-r34-league-of-legends-porn-game-xxx-sex-2-1.jpg", 
-    
+    "https://cosxplay.com/vi/storage/2023/03/league-of-legends-hentai-jinx-fucked-tied-with-pov-uncensored-japanese-asian-manga-anime-game-porn-320x180.jpg",
+"https://ehentai.wiki/images/e2/5b/66501449_overwatch-lol-porn-animation-compilation-arhoangle-thumb.jpg",
+"https://rule34porn.net/web/25506.jpg",
+"https://static7.hentai-img.com/upload/20190131/530/542084/p=305/11.jpg",
+"https://kingcomix.com/wp-content/images/2019/11/19/LoL-Comic---futanari-porn-comics-6.webp",
+"https://hot-cartoon.com/wp-content/uploads/2020/09/7.-ahri-porn-league-of-legends.jpg",
+"https://64.media.tumblr.com/478b3506027b5f582c5e826801469760/tumblr_oamq2pcvVA1v1b66zo1_500.jpg",
+"https://trahkino.cc/contents/videos_screenshots/246000/246612/preview.mp4.jpg",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZuh-ZmaRWrc7buz176PDMlO_FhwNNJyaCovhQel6tcj9ccM9H6pTZAiwaBTzPelFA_A&usqp=CAU",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSckuRG5tBSo4hmkJbRYyAvEz1xgyk7K1sylT_YIJbJjx_yj7pc-Xv5kiD8a9GKg4_DsIs&usqp=CAU",
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO1OLlmagoQYXrAZmkPkFZas-hMROELNr0wokv6xAgDiiiGQZPMpozc4_HLdZtJSICOBY&usqp=CAU",
+"https://pbs.twimg.com/media/FNUj1ZEXsAE5uyp.jpg",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
 
-
-
-
-
-
-    
 ]
 let number = random(0,27)
 
-let timeLeft = 4
+let timeLeft = 10
 let timerId = 0
 
 let image = document.getElementById('imgs');
@@ -101,7 +149,7 @@ function check(){
 function countdown() {
     if (timeLeft == 0) {
         change()
-      timeLeft = 4
+      timeLeft = 10
       timerId = 0
       countdown()
      
